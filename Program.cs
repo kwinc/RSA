@@ -1,9 +1,11 @@
-﻿char[] alphavitM = new char[35] { 'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я', ',', ' ' };
+﻿//https://www.tausquared.net/pages/ctf/rsa.html
+
+char[] alphavitM = new char[35] { 'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я', ',', ' ' };
 
 int[] openKey  = new int[2] { 341, 2021};
-int[] closeKey = new int[2] { 17, 2021};
+int[] closeKey = new int[2] {  17, 2021};
 
-int[] openKeyT = new int[2] { 5, 21 };
+int[] openKeyT  = new int[2] {  5, 21 };
 int[] closeKeyT = new int[2] { 17, 21 };
 
 Console.Write("Входные данные:");
